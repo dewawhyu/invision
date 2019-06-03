@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>InVision Creative</title>
+    <link rel="stylesheet" href="css/mainview.css">
+    <link rel="stylesheet" href="lib/fontaw/css/all.css">
+</head>
+<body>
+<div class="loading">
+    <div class="content-center">
+        <img class="loader" src="img/loader.gif" alt="">
+    </div>
+</div>
+<div class="header">
+    <nav>
+        <input type="checkbox" id="nav" class="hidden">
+        <label for="nav" class="nav-btn">
+            <i></i>
+            <i></i>
+            <i></i>
+        </label>
+        <div class="logo">
+            <a href="">InVision Creative</a>
+        </div>
+        <div class="nav-wrapper">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<div class="main">
+    <div class="content-center">
+        <h1>InVision Creative Corp.</h1>
+        Unlimited Creativity
+        <br>
+        <button class="btn btn-default"><i class="fa fa-arrow-down"></i></button>
+    </div>
+</div>
+<div class="youtubeframe">
+    <iframe class="bg-top" width="" src="https://www.youtube.com/embed/tp7axAML2GA?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="pisah">
+    <div class="text-pisah">
+        <h1 class="blue-text">Layanan Tersedia</h1>
+        <p>Beberapa hal yang kami bisa lakukan untuk kamu.</p>
+    </div>
+    <div class="flex-center">
+        <div class="kolom">
+            <img src="img/programmer.png" alt="">
+            <h1 class="blue">Website</h1>
+        </div>
+        <div class="kolom">
+            <img src="img/photographer.png" alt="">
+            <h1 class="blue">Photographer</h1>
+        </div>
+        <div class="kolom">
+            <img src="img/videographer.png" alt="">
+            <h1 class="blue">Videographer</h1>
+        </div>
+    </div>
+</div>
+<div class="pisahabu">
+    <div class="text-pisah pbottom-20">
+        <h1 class="blue-text">Berita Terbaru</h1>
+        <p>Beberapa kegiatan, berita, informasi yang kami publikasikan.</p>
+    </div>
+    <div class="flex-center">
+        <div class="kolom-post kolomborder">
+            <div class="img-post">
+                <img src="img/bg.png" alt="">
+            </div>
+            <div class="pad-20">
+                <h3 class="blue-text">Berita 1</h3>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam asperiores culpa cupiditate debitis delectus deserunt dignissimos distinctio, et ex explicabo id inventore praesentium reiciendis, saepe sint ullam unde voluptatibus!
+                <br><button class="btn2 btn-post thar-four"><i class="fa fa-newspaper"></i> Read More</button>
+            </div>
+        </div>
+        <div class="kolom-post kolomborder">
+            <div class="img-post">
+                <img src="img/programmer.png" alt="">
+            </div>
+            <div class="pad-20">
+                <h3 class="blue-text">Berita 2</h3>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam asperiores culpa cupiditate debitis delectus deserunt dignissimos distinctio, et ex explicabo id inventore praesentium reiciendis, saepe sint ullam unde voluptatibus!
+                <br><button class="btn2 btn-post thar-four"><i class="fa fa-newspaper"></i> Read More</button>
+             </div>
+        </div>
+        <div class="kolom-post kolomborder">
+            <div class="img-post">
+                <img src="img/bg.png" alt="">
+            </div>
+            <div class="pad-20">
+                <h3 class="blue-text">Berita 3</h3>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam asperiores culpa cupiditate debitis delectus deserunt dignissimos distinctio, et ex explicabo id inventore praesentium reiciendis, saepe sint ullam unde voluptatibus!
+                <br><button class="btn2 btn-post thar-four"><i class="fa fa-newspaper"></i> Read More</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        Copyright 2019 - InVision Creative
+    </div>
+</div>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/jquery.nicescroll.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".loading").delay(3000).fadeOut();
+    })
+    $(document).ready(function() {
+        $("body").niceScroll({
+            cursorcolor:"#ddd",
+            cursorwidth:"2px",
+            cursorborder: "1px solid transparent"
+        });
+    });
+</script>
+</body>
+</html>
